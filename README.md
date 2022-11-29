@@ -1,3 +1,13 @@
+passos gitbash
+1- escolham uma pasta pra clonar o projeto
+2- git clone https://github.com/andre-digitalcollege/DigitalStore.git
+3- cd digitalstore
+4- npm install
+5- npm start
+o projeto inicia, ignora os erros e esta pronto!
+
+6- dai abre a pasta digitalstore no visual code
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
