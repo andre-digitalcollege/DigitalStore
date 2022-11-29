@@ -6,3 +6,35 @@
     min-height: 100vh;
     background-color: #F5F5F5;
 }
+
+.mop {
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: 100px;
+    top: 318px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 150%;
+    color: #F6AA1C;
+    border: 1px solid black;
+}
+
+.qsn {
+    position: absolute;
+    width: 510px;
+    height: 132px;
+    left: 100px;
+    top: 362px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+    border: 1px solid black;
+}
