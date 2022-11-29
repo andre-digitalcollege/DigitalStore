@@ -1,5 +1,5 @@
 import Header from "./components/Header.jsx";
-import Banner from "./components/Banner.jsx"
+import Banner from "./components/Banner/Banner.jsx"
 import Categorias from "./components/Categorias.jsx"
 import Lista from "./components/Lista.jsx"
 import Destaques from "./components/Destaques.jsx"
