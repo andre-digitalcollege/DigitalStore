@@ -8,11 +8,13 @@
 }
 
 .mop {
+    /* Melhores ofertas personalizadas */
     position: absolute;
     width: 280px;
     height: 24px;
     left: 100px;
     top: 318px;
+    margin-bottom: -50px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -20,10 +22,11 @@
     line-height: 25px;
     letter-spacing: 150%;
     color: #F6AA1C;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .qsn {
+    /* Queima de stoque Nike */
     position: absolute;
     width: 510px;
     height: 132px;
@@ -36,5 +39,26 @@
     line-height: 66px;
     letter-spacing: 1px;
     color: #1F1F1F;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.texto {
+    position: absolute;
+    width: 495px;
+    height: 68px;
+    left: 100px;
+    top: 514px;
+    padding-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    /* border: 1px solid black; */
+}
+
+.bnt-verOferta {
+    
 }
