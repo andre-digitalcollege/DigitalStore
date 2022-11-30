@@ -1,3 +1,11 @@
+import DestaqueCards from "./categorias/DestaqueCards.jsx";
+import DestaqueSecoes from "./categorias/DestaqueSecoes.jsx";
+
 export default function Categorias(){
-    return <span>Categorias<p></p></span> 
+    return (
+        <div>
+            <DestaqueCards/>
+            <DestaqueSecoes/>
+        </div>
+    )
 }
