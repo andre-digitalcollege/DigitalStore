@@ -1,6 +1,6 @@
 .container {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
@@ -11,20 +11,20 @@
     position: absolute;
     width: 140px;
     height: 140px;
-    left: 1263px;
+    left: 1239px;
     top: 272px;
     /* background: #F6AA1C; */
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .shoe {
     position: absolute;
-    width: 733.51px;
-    height: 431.61px;
-    left: 513.25px;
-    top: 446.91px;
+    width: 886px;
+    height: 702px;
+    left: 469px;
+    top: 199px;
     filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
-    transform: rotate(-19.34deg);
+    transform: rotate(2deg);
 }
 
 .mop {
@@ -34,7 +34,7 @@
     height: 24px;
     left: 100px;
     top: 318px;
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -50,7 +50,8 @@
     height: 132px;
     left: 100px;
     top: 362px;
-    /* font-family: 'Inter'; */
+    margin: 10px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 64px;
@@ -65,8 +66,7 @@
     height: 68px;
     left: 100px;
     top: 514px;
-    padding-top: 50px;
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -76,12 +76,12 @@
 }
 
 .bnt-verOferta {
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
     position: absolute;
     width: 495px;
     height: 68px;
     left: 100px;
-    top: 680px;
+    top: 636px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -94,4 +94,21 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+
+.carousel {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 681px;
+    top: 886px;
+    border-radius: 26px;
+    border: none;
+    cursor: pointer;
+    background: #CCCCCC;
+
+}
+
+.carousel:hover {
+    background: #C92071;
 }
