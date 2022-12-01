@@ -1,7 +1,18 @@
+import SecaoDestaque from "./SecaoDestaque";
+
 export default function DestaqueSecoes(){
     return (
         <div>
-        <h1>Teste Cards</h1>
+            <div>
+                <h3>Coleções em destaque</h3>
+            </div>
+            <div>
+                <SecaoDestaque />
+                <SecaoDestaque />
+                <SecaoDestaque />
+                <SecaoDestaque />
+                <SecaoDestaque />
+            </div>
         </div>
     )
 }
