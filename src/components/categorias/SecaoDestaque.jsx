@@ -1,14 +1,13 @@
 import styles from "../Categorias.module.css";
-import iconCamiseta from "../../img/categorias/icon-camisetas.svg"
 
-export default function SecaoDestaque() {
+export default function SecaoDestaque(props) {
   return (
     <div>
       <div className={styles.hug}>
-        <img src={iconCamiseta} alt="camisetas"/>
+        <img src={`${props.iconImg}`} alt={props.iconAlt}/>
       </div>
       <div className={styles.tituloCategoria}>
-        <h5>Camisetas</h5>
+        <h5>{props.tituloCategoria}</h5>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 .predefinicoes {
     font-family: 'Inter', sans-serif;
-        margin: 0;
+    margin: 0;
     padding: 38px 100px;
     box-sizing: border-box;
     display: flex;
@@ -31,7 +31,6 @@
     height: 251px;
     background: #D8E3F2;
     border-radius: 8px;
-    background-image: url(../img/categorias/img-destaque-camisa.svg);
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }

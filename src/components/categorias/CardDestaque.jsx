@@ -1,11 +1,11 @@
 import styles from "../Categorias.module.css";
 
-export default function CardDestaque() {
+export default function CardDestaque(props) {
   return (
-    <div className={styles.card}>
+    <div style={{backgroundImage: `url(${props.cardImg})`}} className={styles.card}>
       <div className={styles.conteudoCard}>
-        <span>30% OFF</span>
-        <p>Novo drop Supreme</p>
+        <span>{props.desconto}</span>
+        <p>{props.tituloCard}</p>
         <button>Comprar</button>
       </div>
     </div>
