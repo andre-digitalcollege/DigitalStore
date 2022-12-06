@@ -8,12 +8,12 @@ o projeto inicia, ignora os erros e esta pronto!
 6- abre a pasta digitalstore no visual code
 
 Equipe:
-Header; Deivid, Ryan
-Banner; Helio e Igor
-Categorias; Wesley
-Lista; Andre, Guilherme
-Destaques; Matheus
-Footer; Lucas, Nívea
+Header; Deivid, Ryan.
+Banner; Helio e Igor.
+Categorias; Wesley.
+Lista; Andre, Guilherme.
+Destaques; Matheus.
+Footer; Lucas, Nívea.
 
 # Getting Started with Create React App
 
