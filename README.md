@@ -1,4 +1,7 @@
-passos gitbash
+# Nosso Projeto:
+https://www.figma.com/file/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=474%3A635
+
+# primeiros passos gitbash
 1- escolham uma pasta pra clonar o projeto
 2- git clone https://github.com/andre-digitalcollege/DigitalStore.git
 3- cd digitalstore
@@ -7,13 +10,14 @@ passos gitbash
 o projeto inicia, ignora os erros e esta pronto!
 6- abre a pasta digitalstore no visual code
 
-Equipe:
-Header; Deivid, Ryan.
-Banner; Helio e Igor.
-Categorias; Wesley.
-Lista; Andre, Guilherme.
-Destaques; Matheus.
-Footer; Lucas, Nívea.
+# Equipe:
+[] Header; Deivid, Ryan.
+[] Banner; Helio e Igor.
+[] Categorias; Wesley.
+[] Lista; Andre, Guilherme.
+[] Destaques; Matheus.
+[] Footer; Lucas, Nívea.
+Coordenação André e Ryan
 
 # Getting Started with Create React App
 
