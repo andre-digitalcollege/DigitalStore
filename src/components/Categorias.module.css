@@ -1,0 +1,112 @@
+.predefinicoes {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 38px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F8FE;
+    color: #1F1F1F
+}
+
+.cardDestaque {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloDestaqueCards {
+    margin: 0;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card {
+    width: 405px;
+    min-width: 405px;;
+    height: 251px;
+    background: #D8E3F2;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.conteudoCard {
+    margin: 34px 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 10px;
+}
+
+.conteudoCard span {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #E7FF86;
+    border-radius: 29px;
+    text-align: center;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.conteudoCard p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.conteudoCard button {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #C92071;
+    width: 143px;
+    height: 48px;
+    border-style: none;
+}
+
+.secaoDestaque {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.tituloDestaqueSecao {
+    margin: 0;
+    margin-top: 100px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700; 
+}
+
+.hug {
+    margin-top: 20px;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.hug img {
+    padding: 20px;
+}
+
+.tituloCategoria {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
