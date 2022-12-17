@@ -6,6 +6,7 @@ import Destaques from "./components/Destaques.jsx"
 import Footer from "./components/Footer.jsx"
 
 
+
 function App() {
   return (
     <div>
