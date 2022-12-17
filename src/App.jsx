@@ -1,4 +1,4 @@
-import Header from "./components/Header.jsx";
+import Header from "./components/header/Header.jsx";
 import Banner from "./components/Banner.jsx"
 import Categorias from "./components/Categorias.jsx"
 import Lista from "./components/Lista.jsx"
@@ -15,7 +15,6 @@ function App() {
       <Lista />
       <Destaques />
       <Footer />
-     
     </div>
   );
 }
