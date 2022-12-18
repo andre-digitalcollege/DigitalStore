@@ -1,0 +1,146 @@
+.predefinicoesProductDescription {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 440px;
+    flex-direction: column;
+    margin-left: 40.27px;
+    gap: 0px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+    margin-bottom: 10px;
+}
+
+.productTags {
+    color: #666666;
+    margin-bottom: 14px;
+}
+
+.starIcons {
+    gap: 4.84px;
+    align-items: center;
+}
+
+.starIcons:hover {
+    cursor: pointer;
+}
+
+.boxStarRating {
+    width: 63px;
+    height: 23px;
+    background: #F6AA1C;
+    border-radius: 4px;
+    margin-left: 13.92px;
+    gap: 3.55px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.boxStarRating:hover {
+    cursor: pointer;
+}
+
+.productAvaliationNumber {
+    display: flex;
+    color: #8F8F8F;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.productAvaliationNumber:hover {
+    cursor: pointer;
+}
+
+.productDescription {
+    flex-direction: column;
+    gap: 0;
+}
+
+.productTextDescription {
+    margin: 0px;
+    max-width: 440px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.productSizes {
+    flex-direction: column;
+    gap: 0px;
+}
+
+.titleDescription {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.boxProductSizes {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: #474747;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.boxProductSizes:hover {
+    background: #C92071;
+    border: 1px solid #C92071;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.productColors {
+    flex-direction: column;
+    gap: 0px;
+}
+
+.boxProductColors {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 4px #FFFFFF;
+}
+
+.boxProductColors:hover {
+    box-shadow: inset 0 0 0 2px #C92071,
+        inset 0 0 0 4px #FFFFFF;
+    cursor: pointer;
+}
+
+.btnComprar {
+    margin-top: 31px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #F5F5F5;
+    height: 48px;
+    width: 220px;
+    background: #FFB31F;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}

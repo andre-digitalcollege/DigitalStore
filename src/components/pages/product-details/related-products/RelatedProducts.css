@@ -1,0 +1,47 @@
+.predefinicoesRelatedProducts {
+    margin: 0;
+    box-sizing: border-box;
+    width: 1240px;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 80px;
+}
+
+.relatedProducts {
+    width: 1240px;
+    height: 292px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.headRelatedProducts {
+    width: 100%;    
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headRelatedProducts span {
+    color: #C92071;
+}
+
+.headRelatedProducts h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #C92071;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.moreProducts {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.moreProducts:hover {
+    cursor: pointer;
+}
+

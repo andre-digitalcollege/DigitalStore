@@ -1,0 +1,10 @@
+.predefinicoesProductDetails {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+    color: #474747;
+    display: flex;  
+    flex-direction: column;
+    padding: 20px 100px 127px 100px;
+}

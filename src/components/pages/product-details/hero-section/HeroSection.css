@@ -1,0 +1,9 @@
+.CurrentPage {
+    font-weight: bold;
+}
+
+div {
+    width: max-content;
+    display: flex;
+    gap: 8px;
+}

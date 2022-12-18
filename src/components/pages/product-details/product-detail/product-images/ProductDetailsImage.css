@@ -1,0 +1,47 @@
+.predefinicoesProductDetailsImage {
+    flex-direction: column;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    gap: 20px;
+}
+
+.featuredImage {
+    width: 700.73px;
+    height: 571px;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../../../img/White-Sneakers-PNG-Clipart\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E2E3FF;
+    border-radius: 4px;
+}
+
+.arrow {
+    padding: 16px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.carouselImages {
+  gap: 27.99px;
+}
+
+.carouselImage {
+    width: 117.81px;
+    height: 96px;
+    border-radius: 4px;
+    background-image: url(../../../img/White-Sneakers-PNG-Clipart\ 2.png);
+    background-size: 83.8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carouselImage:hover {
+    box-sizing: border-box;
+    border: 2px solid #C92071;
+    cursor: pointer;
+}
