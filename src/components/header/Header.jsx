@@ -1,7 +1,8 @@
-import Logo from './img/logo.png'
-import './header.css'
-import './login.jsx'
-import { Outlet } from 'react-router-dom'
+import Logo from './img/logo.png';
+// import ReactDOM from "react-dom/client";
+import {Outlet, Link} from 'react-router-dom';
+import './header.css';
+import './login.jsx';
 function Header() {
   return (
       <div className='centralizar'>
@@ -26,13 +27,13 @@ function Header() {
           </div>
         
             <div style={{ paddingTop: '30px', backgroundColor: '#FFFFFF', margin: '0 14px', }} >
-              <span style={{ padding: '20px', }}>Home</span>       
-              <span style={{ padding: '20px', }}>Produtos</span>
-              <span style={{ padding: '20px', }}>Categorias</span>
-              <span style={{ padding: '20px', }}>Meus Produtos</span>
+              <Link to={"/"} style={{ padding: '20px', }}>Home</Link>       
+              <Link to={"/produtos"} style={{ padding: '20px', }}>Produtos</Link>
+              <Link to={"/categorias"} style={{ padding: '20px', }}>Categorias</Link>
+              <Link to={"/meusprodutos"} style={{ padding: '20px', }}>Meus Produtos</Link>
             </div>
         </header >
-        <Outlet />
+        {/* <Outlet /> */}
       </div >
 
   )
