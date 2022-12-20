@@ -26,11 +26,11 @@ function Header() {
             </svg>
           </div>
         
-            <div style={{ paddingTop: '30px', backgroundColor: '#FFFFFF', margin: '0 14px', }} >
-              <Link to={"/"} style={{ padding: '20px', }}>Home</Link>       
-              <Link to={"/produtos"} style={{ padding: '20px', }}>Produtos</Link>
-              <Link to={"/categorias"} style={{ padding: '20px', }}>Categorias</Link>
-              <Link to={"/meusprodutos"} style={{ padding: '20px', }}>Meus Produtos</Link>
+            <div style={{ paddingTop: '30px', backgroundColor: '#FFFFFF', marginLeft: '-18px', }} >
+              <Link to={"/"} className='ementa' style={{ padding: '20px', }}>Home</Link>       
+              <Link to={"/produtos"} className='ementa' style={{ padding: '20px', }}>Produtos</Link>
+              <Link to={"/categorias"} className='ementa' style={{ padding: '20px', }}>Categorias</Link>
+              <Link to={"/meusprodutos"} className='ementa' style={{ padding: '20px', }}>Meus Produtos</Link>
             </div>
         </header >
         {/* <Outlet /> */}

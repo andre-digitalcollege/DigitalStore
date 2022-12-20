@@ -85,6 +85,18 @@ cursor: pointer;
     color: black;
     
 }
+.ementa{
+    font-size: 16px;
+    font-weight: 400;
+    color:#474747;
+    text-decoration: none;
+}
+.ementa:hover{
+    font-size: 16px;
+    color:#C92071;
+    font-weight: 700;
+    text-decoration: underline;
+}
 
 .entrar{
     background: #C92071;
