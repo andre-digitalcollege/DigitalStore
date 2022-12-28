@@ -10,7 +10,6 @@ background: '#1F1F1F',
 color: '#ffffff',
 fontFamily: 'Inter',
 fontStyle: 'normal',
-
 }
 
 export default function Footer(){
