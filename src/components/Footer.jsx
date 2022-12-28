@@ -185,10 +185,7 @@ mixBlendMode: 'normal',
         }}>@ 2022 Digital College</p>
     </div>
     </section>
-</div>
+</div>  
 
-
-    
-    
     )         
  }
