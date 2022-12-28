@@ -1,5 +1,5 @@
+import Banner from "./components/Banner/Banner.jsx"
 import Header from "./components/header/Header";
-import Banner from "./components/Banner.jsx"
 import Categorias from "./components/Categorias.jsx"
 import Lista from "./components/Lista.jsx"
 import Destaques from "./components/Destaques.jsx"
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
