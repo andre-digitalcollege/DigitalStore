@@ -1,4 +1,5 @@
 .container {
+    height: 681px;
     display: flex;
     flex-direction: column;
     background-color: #F5F5F5;
@@ -31,10 +32,10 @@
     position: absolute;
     width: 733.51px;
     height: 431.61px;
-    left: 513.25px;
-    top: 446.91px;
-    filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
-    transform: rotate(-19.34deg);
+    right: 91.25px;
+    top: 364.91px;
+    filter: drop-shadow(0px 4px 25px rgba(139, 15, 21, 0.08));
+    transform: rotate(-8deg);
 }
 
 .mop {
@@ -43,7 +44,7 @@
     width: 280px;
     height: 24px;
     left: 100px;
-    top: 318px;
+    top: 304px;
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 800;
@@ -55,6 +56,7 @@
 
 .qsn {
     /* Queima de stoque Nike */
+    position: absolute;
     margin: 10px 0px;
     width: 510px;
     height: 132px;
@@ -70,11 +72,12 @@
 }
 
 .texto {
+    position: absolute;
     margin: 10px 0px 20px 0px;
     width: 495px;
     height: 68px;
     left: 100px;
-    top: 514px;
+    top: px;
     padding-top: 50px;
     /* font-family: 'Inter'; */
     font-style: normal;
@@ -91,7 +94,7 @@
     width: 495px;
     height: 68px;
     left: 100px;
-    top: 680px;
+    top: 620px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -104,4 +107,13 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+
+.carousel {
+    position: absolute;
+    right: 590px;
+    top: 819.25px;
+    bottom: 22px;
+    filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
+   
 }
