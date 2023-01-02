@@ -1,0 +1,119 @@
+.container {
+    height: 681px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ornamento-11 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 1263px;
+    top: 272px;
+    /* background: #F6AA1C; */
+    opacity: 0.4;
+}
+
+.shoe {
+    position: absolute;
+    width: 733.51px;
+    height: 431.61px;
+    right: 91.25px;
+    top: 364.91px;
+    filter: drop-shadow(0px 4px 25px rgba(139, 15, 21, 0.08));
+    transform: rotate(-8deg);
+}
+
+.mop {
+    /* Melhores ofertas personalizadas */
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: 100px;
+    top: 304px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 150%;
+    color: #F6AA1C;
+}
+
+.qsn {
+    /* Queima de stoque Nike */
+    position: absolute;
+    margin: 10px 0px;
+    width: 510px;
+    height: 132px;
+    left: 100px;
+    top: 362px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+}
+
+.texto {
+    position: absolute;
+    margin: 10px 0px 20px 0px;
+    width: 495px;
+    height: 68px;
+    left: 100px;
+    top: px;
+    padding-top: 50px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.bnt-verOferta {
+    /* font-family: 'Inter'; */
+    position: absolute;
+    width: 495px;
+    height: 68px;
+    left: 100px;
+    top: 620px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #F5F5F5;
+    width: 220px;
+    height: 48px;
+    margin-top: 20px;
+    background: #C92071;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel {
+    position: absolute;
+    right: 590px;
+    top: 819.25px;
+    bottom: 22px;
+    filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
+   
+}
