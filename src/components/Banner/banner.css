@@ -1,3 +1,24 @@
+.swiper {
+    padding: 32px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #C92071;
+}
+
+.swiper-button-prev {
+    color: #C92071;
+}
+
+.swiper-button-next {
+    color: #C92071;
+}
+
 .container {
     height: 681px;
     display: flex;
@@ -115,5 +136,5 @@
     top: 819.25px;
     bottom: 22px;
     filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
-   
+
 }
