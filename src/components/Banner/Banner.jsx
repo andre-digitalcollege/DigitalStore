@@ -1,5 +1,5 @@
 import React from 'react'
-import './banner.css'
+import './Banner.css'
 import WhiteSneakers from './img/White-Sneakers-PNG-Clipart 1.png'
 import Ornament11 from './img/Ornament 11.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
