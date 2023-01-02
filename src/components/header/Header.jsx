@@ -1,11 +1,10 @@
 
 import Logo from './img/logo.png'
 import './hdr.css'
-import  './login.jsx'
+import './login.jsx'
 
 
 export default function Header(){
-{
   return (
     <div className='centralizar'>
       <header className='app-header'>
@@ -38,5 +37,4 @@ export default function Header(){
       </header >
     </div >
   )
-}
 }
