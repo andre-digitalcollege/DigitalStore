@@ -35,11 +35,8 @@ transform: 'matrix(1, 0, 0, -1, 0, 0)',
 </svg>
             <h1 style={{
 position: 'absolute',
-
 right: '0%',
-
 bottom: '0%',
-
 fontWeight: '600',
 fontSize: '36.3951px',
 top: '72px',
