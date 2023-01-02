@@ -4,6 +4,7 @@ import Categorias from "./components/Categorias.jsx"
 import Lista from "./components/Lista.jsx"
 import Destaques from "./components/Destaques.jsx"
 import Footer from "./components/Footer.jsx"
+
 function App() {
   return (
     <div>
