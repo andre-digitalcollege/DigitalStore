@@ -49,7 +49,6 @@ margin-right: 104px;
     justify-content: start;
 }
 
-
 .place{
 width: 559px;
 height: 60px;
@@ -98,16 +97,14 @@ cursor: pointer;
     font-size: 14px;
     line-height: 22px;
     margin-right: 70px;
-    cursor: pointer;
-    
+    cursor: pointer;  
 
 }
 
 .entrar:hover{
 
     background: #fb278e;
-    border: 1px solid black; 
-    
+    border: 1px solid black;  
 
 }
 .carrinho{

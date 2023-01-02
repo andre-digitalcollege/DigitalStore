@@ -7,5 +7,7 @@ branch destaques matheus
 
 28-dez-22 consegui resolver conflitos header-deivid
  
+01-jan-2022 ajuste proporcoes footer, colocando itens em %vda mergem esquerda
+
  staging...
  
