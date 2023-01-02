@@ -4,7 +4,6 @@ import Categorias from "../../Categorias.jsx"
 import Lista from "../../Lista.jsx"
 import Destaques from "../../Destaques.jsx"
 import Footer from "../../Footer.jsx"
-import './header.css';
 export default function Home(){
     return(
         <>

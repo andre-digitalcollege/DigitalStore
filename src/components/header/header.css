@@ -152,3 +152,16 @@ background-image: linear-gradient(#B5B6F2
 #EFEFFF
 100%);
 }
+
+.Digitalcadastre{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 23.9877px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #C92071;   
+    justify-content: space-around;
+    text-align: center; 
+    align-items: center;
+
+}
