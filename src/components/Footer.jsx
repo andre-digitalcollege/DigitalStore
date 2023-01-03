@@ -35,11 +35,8 @@ transform: 'matrix(1, 0, 0, -1, 0, 0)',
 </svg>
             <h1 style={{
 position: 'absolute',
-
 right: '0%',
-
 bottom: '0%',
-
 fontWeight: '600',
 fontSize: '36.3951px',
 top: '72px',
@@ -168,14 +165,15 @@ top: '214px',
     <div>
     <svg style={{
 position: 'absolute',
-width: '1240px',
+width: '88%',
 height: '1px',
 left: '100px',
+right: '100px',
 top: '384px',
 
 background: '#FFFFFF',
 opacity: '0.3',}}
- width="1240" height="1" viewBox="0 0 1240 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+height="1" viewBox="0 0 80% 1" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.3" d="M1240 0H0V1H1240V0Z" fill="white"/>
 </svg>
 
