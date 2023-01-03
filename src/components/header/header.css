@@ -127,33 +127,32 @@ cursor: pointer;
 }
 
 .svg{
-    cursor: pointerg;
+    cursor: pointer;
 }
 
 .headercadastre{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 25px 100px;
-gap: 10px;
-
-position: absolute;
-width: 1440px;
-height: 80px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
 }
 
 .lineargradient{
-background-image: linear-gradient(#B5B6F2
-100%
-#EFEFFF
-100%);
+    /* background: linear-gradient( #B5B6F2, #FFFFFF); */
+    background-image: linear-gradient(to bottom, #B5B6F2 , #FFFFFF);
+
 }
 
 .Digitalcadastre{
+    padding: 25px 100px;
     font-family: 'Inter';
     font-weight: 600;
     font-size: 23.9877px;
