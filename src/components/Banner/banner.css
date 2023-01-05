@@ -1,10 +1,17 @@
 .swiper {
     padding: 32px;
+    height: 681px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .swiper-pagination-bullet-active {
