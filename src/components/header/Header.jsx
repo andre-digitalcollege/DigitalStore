@@ -13,7 +13,7 @@ function Header() {
               <input type='text' className='place' placeholder="Pesquisar Produtos..." ></input>
             </div>
         
-            <Link to={"/Cadastre"}><span className='cadastre-se'>Cadastre-se</span></Link>
+            <Link to={"/Cadastre2"}><span className='cadastre-se'>Cadastre-se</span></Link>
             <Link to={"/Cadastre"}><button className='entrar'>Entrar</button></Link>
             <svg className='svg' width="33" height="29" viewBox="0 0 33 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M7.42233 24.8203C7.84433 24.8203 8.18733 25.1633 8.18733 25.5853C8.18733 26.0073 7.84433 26.3493 7.42233 26.3493C7.00033 26.3493 6.65833 26.0073 6.65833 25.5853C6.65833 25.1633 7.00033 24.8203 7.42233 24.8203Z" stroke="#C92071" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -24,7 +24,7 @@ function Header() {
             </svg>
           </div>
         
-            <div style={{ paddingTop: '30px', backgroundColor: '#FFFFFF', marginLeft: '-18px', }} >
+            <div style={{ paddingTop: '30px', paddingBottom:'30px', backgroundColor: '#FFFFFF', marginLeft: '-18px', }} >
               <Link to={"/"} className='ementa' style={{ padding: '20px', }}>Home</Link>       
               <Link to={"/produtos"} className='ementa' style={{ padding: '20px', }}>Produtos</Link>
               <Link to={"/categorias"} className='ementa' style={{ padding: '20px', }}>Categorias</Link>

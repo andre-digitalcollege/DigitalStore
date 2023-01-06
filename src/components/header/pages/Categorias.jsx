@@ -4,7 +4,7 @@ function Categorias (){
     return(
         <div>
             <Header />
-            <h1>Categorias</h1>
+            <h2>Categorias</h2>
         </div>
     )
 }
