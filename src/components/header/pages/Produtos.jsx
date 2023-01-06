@@ -2,7 +2,7 @@ import Header from "../Header"
 
 function Produtos (){
     return(
-        <div>
+        <div >
             <Header/>
             <h1>Produtos</h1>
         </div>
