@@ -26,7 +26,7 @@ export default function Footer(){
         <svg style={{
 position: 'absolute',
 left: '7%',
-top: '77px',
+top: '62px',
 
 
 transform: 'matrix(1, 0, 0, -1, 0, 0)',
@@ -39,8 +39,8 @@ right: '0%',
 bottom: '0%',
 fontWeight: '600',
 fontSize: '36.3951px',
-top: '72px',
-left: '10%',
+top: '82px',
+left: '10.2%',
 letterSpacing: '-0.01em',
         }}>Digital Store</h1>
         </div>
