@@ -1,6 +1,7 @@
 import './produtosAlta.css';
 import CardProduto from './CardProduto';
 import CardProdutoDesconto from './CardProdutoDesconto';
+import imgSeta from "../../img/produtosAlta/seta.svg";
 
 export default function ProdutosAlta(){
     return (
@@ -9,9 +10,9 @@ export default function ProdutosAlta(){
                 <div className="tituloProdutosEmAlta">
                     <h3>Produtos em alta</h3>
                 </div>
-                <div className="verMais">
-                    <span>Ver todos</span>
-                    <img src="" alt="imagem seta"/>
+                <div className="verTodos">
+                    <p>Ver todos</p>
+                    <img src={imgSeta} alt="imagem seta"/>
                 </div>
             </div>
             <div className="cards">

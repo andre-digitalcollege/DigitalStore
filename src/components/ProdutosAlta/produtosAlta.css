@@ -13,18 +13,36 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .tituloProdutosEmAlta {
-    margin: 0;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    font-size: 24px;
     font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.verTodos {
+    display: flex;
+    gap: 14px;
+}
+
+.verTodos p{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+}
+
+.seta {
+    width: 16px;
 }
 
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    column-gap: 24px;
+    row-gap: 40px;
 }
