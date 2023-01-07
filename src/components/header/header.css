@@ -365,6 +365,7 @@
 
 .esquecisenha:hover {
     color: black;
+    cursor: pointer;
 }
 
 .acessarconta {
@@ -373,7 +374,7 @@
     Height: 48px;
     border-radius: 8px;
     position: absolute;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 
 
     /* primary */
@@ -392,6 +393,7 @@
 .acessarconta:hover {
     background: #fb278e;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .oufacalogin {
@@ -403,28 +405,29 @@
 
     letter-spacing: 0.75px;
     color: #474747;
-    margin-top: 400px;
+    margin-top: 345px;
     Width: 523px;
     Height: 48px;
     border-radius: 8px;
     position: absolute;
     padding-bottom: 30px;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 150px;
 
 }
 
 .google {
     position: absolute;
-    margin-top: 404px;
-    padding-left: 355px;
+    margin-top: 350px;
+    padding-left: 310px;
 
 
 }
 
 .facebook {
     position: absolute;
-    margin-top: 401px;
-    padding-left: 400px;
+    margin-top: 348px;
+    padding-left: 345px;
 
 
 }
@@ -442,7 +445,7 @@
 
 .acessarconta2 {
     margin-top: 116px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     Width: 523px;
     Height: 48px;
     border-radius: 8px;
@@ -471,28 +474,29 @@
 
     letter-spacing: 0.75px;
     color: #474747;
-    margin-top: 220px;
+    margin-top: 190px;
     Width: 523px;
     Height: 48px;
     border-radius: 8px;
     position: absolute;
-    padding-bottom: 30px;
-    text-align: center;
+    /* padding-bottom: 60px; */
+    /* text-align: center; */
+    margin-left: 120px;
 
 }
 
 .google2 {
     position: absolute;
-    margin-top: 223px;
-    padding-left: 355px;
+    margin-top: 195px;
+    padding-left: 280px;
 
 
 }
 
 .facebook2 {
     position: absolute;
-    margin-top: 220px;
-    padding-left: 400px;
+    margin-top: 192px;
+    padding-left: 315px;
 
 
 }
@@ -819,59 +823,62 @@
 .checkbox {
     Width: 22px;
     Height: 22px;
-    right: 785px;
-    top: 720px;
+    right: 728px;
+    top: 670px;
     position: absolute;
     border: 1px solid #C92071;
     border-radius: 2px;
-    
-    
+    cursor: pointer;
+
+
 }
 
-.checkbox:checked{
+.checkbox:checked {
     background-color: #C92071;
     color: #C92071;
-    background:#C92071 ;
+    background: #C92071;
+    cursor: pointer;
 
 }
 
-.textocheckbox{
-    
+.textocheckbox {
+
     width: 728px;
-height: 44px;
-margin-top: 630px;
-margin-left: 10px;
+    height: 44px;
+    margin-top: 575px;
+    margin-left: 10px;
 
-/* Text X-Small - Desktop */
+    /* Text X-Small - Desktop */
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-/* or 157% */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
 
-letter-spacing: 0.25px;
+    letter-spacing: 0.25px;
 
-/* dark-gray-2 */
+    /* dark-gray-2 */
 
-color: #474747;
+    color: #474747;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .criarconta3 {
-    margin-top: 1320px;
-    /* margin-left: 30px; */
+    margin-top: 1260px;
     Width: 750px;
     Height: 48px;
     border-radius: 8px;
     position: absolute;
+    
+
 
 
     /* primary */
@@ -885,4 +892,15 @@ flex-grow: 0;
     font-size: 16px;
     line-height: 24px;
     color: white;
+}
+
+.acessarconta2:hover {
+    background: #fb278e;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.criarconta3:hover {
+    background: #fb278e;
+    border: 1px solid black;
+    cursor: pointer;
 }
