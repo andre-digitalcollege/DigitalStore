@@ -1,0 +1,61 @@
+.predefinicoesDestaque {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-top: 87px;
+    padding-bottom: 108px;
+    gap: 67px;
+    justify-content: center;
+}
+
+.img {
+    width: 573px;
+}
+
+.informacoes {
+    text-align: start;
+    max-width: 589px;
+}
+
+.textoDestaque {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+    margin-bottom: 17px;
+}
+
+.tituloProduto {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.descricaoProduto {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.informacoes button {
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    background: #C92071;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #F5F5F5;
+}
+
+.informacoes button:hover {
+    cursor: pointer;
+} 
