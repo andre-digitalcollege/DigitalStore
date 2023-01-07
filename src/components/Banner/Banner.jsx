@@ -1,23 +1,32 @@
 import React from 'react'
+import ConteudoBanner1 from './ConteudoBanner1.jsx'
+import ConteudoBanner2 from './ConteudoBanner2.jsx'
+import ConteudoBanner3 from './ConteudoBanner3.jsx'
+import ConteudoBanner4 from './ConteudoBanner4.jsx'
 import './banner.css'
-import WhiteSneakers from './img/White-Sneakers-PNG-Clipart 1.png'
-import Ornament11 from './img/Ornament 11.png'
-import Carousel from './carousel'
 
-export default function Banner() {
-    return (
-        <div className="container">
-            <img src={Ornament11} alt="Ornament" className='ornamento-11' />
-            <img src={WhiteSneakers} alt="Shoe" className='shoe' />
-            <p className='mop' >Melhores ofertas personalizadas</p>
-            <p className='qsn'>Queima de stoque Nike 🔥</p>
-            <p className='texto'>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur</p>
-            <button className='bnt-verOferta'>Ver Oferta</button>
-            <div className="carousel">
-                <div className="">
-                </div>
-            </div>
-            <Carousel />
-        </div>
-    );
+import { Navigation, Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+function Banner() {
+  return (
+    <Swiper className='containerBannerSlide'
+    modules={[Navigation, Pagination]}
+    spaceBetween={30}
+    slidesPerView={1}
+    navigation
+    pagination={{ clickable: true }}>
+        <SwiperSlide><ConteudoBanner1/></SwiperSlide>
+        <SwiperSlide><ConteudoBanner2/></SwiperSlide>
+        <SwiperSlide><ConteudoBanner3/></SwiperSlide>
+        <SwiperSlide><ConteudoBanner4/></SwiperSlide>
+    </Swiper>
+  )
 }
+
+export default Banner
