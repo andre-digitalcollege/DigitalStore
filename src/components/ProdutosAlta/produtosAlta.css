@@ -1,0 +1,48 @@
+.predefinicoes {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 38px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F8FE;
+    color: #1F1F1F
+}
+
+.headLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tituloProdutosEmAlta {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.verTodos {
+    display: flex;
+    gap: 14px;
+}
+
+.verTodos p{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+}
+
+.seta {
+    width: 16px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    column-gap: 24px;
+    row-gap: 40px;
+}
