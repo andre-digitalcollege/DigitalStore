@@ -306,8 +306,8 @@
 
 .loginesenha {
     position: absolute;
-    width: 108.7px;
-    height: 24px;
+    /* width: 108.7px;
+    height: 24px; */
     left: 30px;
     top: 144px;
 
@@ -504,23 +504,105 @@
     border-Radius: 4px;
     padding: 30px;
     gap: 30px;
+    overflow-x: hidden;
 
 
 }
 
 .telinha3 {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
-    gap: 30px;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 20px;
 
-    position: absolute;
-    width: 583px;
-    height: 399px;
-    left: 25%;
-    top: 200px;
+position: absolute;
+width: 750px;
+height: 538px;
+left: 345px;
+top: 208px;
 
-    background: #FFFFFF;
-    border-radius: 4px;
+background: #FFFFFF;
+border-radius: 4px;
 }
+
+.informacoes{
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+
+text-align: center;
+letter-spacing: 0.75px;
+align-items: center;
+
+
+color: #474747;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.cpf {
+    position: absolute;
+width: 330.12px;
+height: 24px;
+left: 30px;
+top: 201px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+
+    letter-spacing: 0.75px;
+
+    color: #474747;
+    cursor: default;
+}
+
+.email {
+    position: absolute;
+    /* width: 108.7px;
+    height: 24px; */
+    left: 30px;
+    top: 144px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+
+    letter-spacing: 0.75px;
+
+    color: #474747;
+    cursor: default;
+}
+.celular {
+    position: absolute;
+    /* width: 108.7px;
+    height: 24px; */
+    left: 30px;
+    top: 144px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+
+    letter-spacing: 0.75px;
+
+    color: #474747;
+    cursor: default;
+}
+
+
