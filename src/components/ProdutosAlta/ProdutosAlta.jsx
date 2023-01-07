@@ -12,7 +12,7 @@ export default function ProdutosAlta(){
                 </div>
                 <div className="verTodos">
                     <p>Ver todos</p>
-                    <img src={imgSeta} alt="imagem seta"/>
+                    <img className='seta' src={imgSeta} alt="imagem seta"/>
                 </div>
             </div>
             <div className="cards">
