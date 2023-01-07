@@ -26,11 +26,11 @@ function Cadastre() {
                     <input type='email' className="inputlogin" maxLength="50" placeholder="insira seu login ou email" ></input>
                     <text className="loginesenha2">Senha*</text>
                     <input type='password' className="inputsenha" maxLength="50" placeholder="insira sua senha" ></input>
-                    <Link to={"/meusprodutos"} className="esquecisenha">Esqueci minha senha</Link>
+                    <Link to={"/"} className="esquecisenha">Esqueci minha senha</Link>
                     
 
                     <div>
-                   <Link><button className='acessarconta'>Acessar Conta</button></Link>
+                   <Link to={"/"}><button className='acessarconta'>Acessar Conta</button></Link>
                     <text className="oufacalogin">Ou faça login com</text>
                     <img src={google} alt='shoe' className="google" ></img>
                     <img src={facebook} alt='shoe' className="facebook"></img>
