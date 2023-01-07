@@ -16,26 +16,41 @@ function Cadastre3() {
                 </div>
             </header>
             <div className="telacadastre3">
-            <text>Crie sua conta</text>
+            <text className="criarconta2">Criar Conta</text>
                 <div className="telinha3">
                     <text className="informacoes">Informações pessoais</text>
                     <img src={linha} alt='shoe'></img>
-                    <text className="loginesenha">Nome completo *</text>
-                    <input type='email' className="inputlogin" maxLength="50" placeholder="insira seu nome" ></input>
+                    <text className="seunome">Nome completo *</text>
+                    <input type='email' className="inputlogin1" maxLength="50" placeholder="insira seu nome" ></input>
                     <text className="cpf">CPF *</text>
-                    <input type='email' className="inputlogin" maxLength="50" placeholder="insira seu CPF" ></input>
+                    <input type='email' className="inputlogin2" maxLength="50" placeholder="insira seu CPF" ></input>
                     <text className="email">E-mail *</text>
-                    <input type='email' className="inputlogin" maxLength="50" placeholder="insira seu email" ></input>
+                    <input type='email' className="inputlogin3" maxLength="50" placeholder="insira seu email" ></input>
                     <text className="celular">Celular *</text>
-                    <input type='email' className="inputlogin" maxLength="50" placeholder="insira seu celular" ></input>
+                    <input type='email' className="inputlogin4" maxLength="50" placeholder="insira seu celular" ></input>
+
+                    <div className="telinha4">
+                    <text className="informacoes">Informações de entrega</text>
+                    <img src={linha} alt='shoe'></img>
+                    <text className="seunome">Endereço *</text>
+                    <input type='email' className="inputlogin1" maxLength="50" placeholder="insira seu endereço" ></input>
+                    <text className="cpf">Bairro *</text>
+                    <input type='email' className="inputlogin2" maxLength="50" placeholder="insira seu bairro" ></input>
+                    <text className="email">Cidade *</text>
+                    <input type='email' className="inputlogin3" maxLength="50" placeholder="insira sua cidade" ></input>
+                    <text className="celular">CEP *</text>
+                    <input type='email' className="inputlogin4" maxLength="50" placeholder="insira seu CEP" ></input>
+                    <text className="complemento">Complemento *</text>
+                    <input type='email' className="inputlogin5" maxLength="50" placeholder="insira completo" ></input>
+                    <input type='checkbox' className="checkbox"></input>
+                    <text className="textocheckbox">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.</text>
+                    </div>
                     
 
-                    {/* <div>
-                   <Link  to={"/"}><button className='acessarconta2'>Criar Contaasdasdasd</button></Link>
-                    <text className="oufacalogin2">Ou faça login com</text>
-                    <img src={google} alt='shoe' className="google2" ></img>
-                    <img src={facebook} alt='shoe' className="facebook2"></img>
-                    </div> */}
+                    <div>
+                   <Link  to={"/"}><button className='criarconta3'>Criar Conta</button></Link>
+                    
+                    </div>
                 </div>
             </div>
             <Footer />
