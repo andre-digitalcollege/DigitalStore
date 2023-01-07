@@ -1,14 +1,5 @@
-.containerBannerSlide {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-}
-
 .container {
-    height: 681px;
+    height: 820px;
     display: flex;
     flex-direction: column;
     background-color: #F5F5F5;
