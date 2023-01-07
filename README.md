@@ -14,9 +14,9 @@ o projeto inicia, ignora os erros e esta pronto!
 [] Header; Deivid, Ryan.
 [] Banner; Helio e Igor.
 [] Categorias; Wesley.
-[] Lista; Andre, Guilherme.
-[] Destaques; Matheus.
-[] Footer; Lucas, Nívea.
+[] Lista; Wesley
+[] Destaques; Wesley.
+[] Footer; Nívea.
 Coordenação André e Ryan
 
 # Getting Started with Create React App
