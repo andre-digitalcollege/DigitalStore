@@ -26,7 +26,7 @@ export default function Footer(){
         <svg style={{
 position: 'absolute',
 left: '7%',
-top: '77px',
+top: '52px',
 
 
 transform: 'matrix(1, 0, 0, -1, 0, 0)',
@@ -40,7 +40,7 @@ bottom: '0%',
 fontWeight: '600',
 fontSize: '36.3951px',
 top: '72px',
-left: '10%',
+left: '10.2%',
 letterSpacing: '-0.01em',
         }}>Digital Store</h1>
         </div>
@@ -50,7 +50,7 @@ position: 'absolute',
 width: '307px',
 height: '78px',
 left: '7%',
-top: '151px',
+top: '141px',
 
 fontWeight: '400',
 fontSize: '16p',
@@ -97,14 +97,14 @@ position: 'absolute',
 width: '99px',
 height: '22px',
 left: '42.5%',
-top: '72px',
+top: '77px',
             }}>Informações</h3>
             <div style={{
 position: 'absolute',
 width: '135px',
 height: '228px',
 left: '42.5%',
-top: '122px',
+top: '132px',
             }}>
             <p>Sobre Drip Store</p>
             <p>Segurança</p>
@@ -120,7 +120,7 @@ position: 'absolute',
 width: '96px',
 height: '22px',
 left: '58.9%',
-top: '72px',
+top: '77px',
 
             }}>Categorias</h3>
             <div style={{
@@ -128,7 +128,7 @@ position: 'absolute',
 width: '96px',
 height: '190px',
 left: '58.9%',
-top: '122px',
+top: '132px',
             }}>
             <p>Camisetas</p>
             <p>Calças</p>
@@ -143,21 +143,21 @@ position: 'absolute',
 width: '71px',
 height: '22px',
 left: '77%',
-top: '72px',
+top: '77px',
             }}>Contato</h3>
             <p style={{
 position: 'absolute',
 width: '231px',
 height: '78px',
 left: '77%',
-top: '122px',
+top: '132px',
             }}>Av. Santos Dumont, 1510 -1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
             <p style={{
 position: 'absolute',
 width: '231px',
 height: '26px',
 left: '77%',
-top: '214px',
+top: '224px',
            }}>(85) 3051-3411</p>
         </div>
         
