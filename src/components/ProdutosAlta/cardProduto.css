@@ -1,0 +1,79 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgCard {
+    display: flex;
+    width: 292px;
+    height: 321px;
+    background: #FFFFFF;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    background-image: url(../../img/produtosAlta/tenis.svg);
+    background-repeat:no-repeat;
+    background-position: 600% 40%;
+}
+
+.desconto {
+    width: 96px;
+    height: 32px;
+    background: #E7FF86;
+    border-radius: 29px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.percentualDesconto {
+    font-weight: 700;
+    font-size: 14px;
+    color: #474747;
+}
+
+.descricaoProduto {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+}
+
+.tituloProduto {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.precos {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.preco {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.precoComDesconto {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
